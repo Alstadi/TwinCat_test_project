@@ -46,26 +46,170 @@
 					<Vars VarGrpType="1">
 						<Name>PlcTask Inputs</Name>
 						<Var>
-							<Name>MAIN.test_input</Name>
+							<Name>GVL_IO.sync_master_dev2</Name>
+							<Type>UINT</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.DI1</Name>
 							<Type>BOOL</Type>
 						</Var>
 						<Var>
-							<Name>GVL_IO.sync_master_dev2</Name>
-							<Type>UINT</Type>
+							<Name>GVL_IO.AI1</Name>
+							<Type>INT</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.AI2</Name>
+							<Type>INT</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.AI3</Name>
+							<Type>INT</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.AI4</Name>
+							<Type>INT</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.AI5</Name>
+							<Type>INT</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.AI6</Name>
+							<Type>INT</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.AI7</Name>
+							<Type>INT</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.AI8</Name>
+							<Type>INT</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.DI2</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.DI3</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.DI4</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.DI5</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.DI6</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.DI7</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.DI8</Name>
+							<Type>BOOL</Type>
 						</Var>
 					</Vars>
 					<Vars VarGrpType="2">
 						<Name>PlcTask Outputs</Name>
 						<Var>
-							<Name>MAIN.test_output</Name>
+							<Name>GVL_IO.AO1</Name>
+							<Type>INT</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.AO2</Name>
+							<Type>INT</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.AO3</Name>
+							<Type>INT</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.AO4</Name>
+							<Type>INT</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.AO5</Name>
+							<Type>INT</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.AO6</Name>
+							<Type>INT</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.AO7</Name>
+							<Type>INT</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.AO8</Name>
+							<Type>INT</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.DO1</Name>
 							<Type>BOOL</Type>
 						</Var>
 						<Var>
-							<Name>MAIN.t_out2</Name>
+							<Name>GVL_IO.DO2</Name>
 							<Type>BOOL</Type>
 						</Var>
 						<Var>
-							<Name>GVL_IO.out_7</Name>
+							<Name>GVL_IO.DO3</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.DO4</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.DO5</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.DO6</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.DO7</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.DO8</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.DO9</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.DO10</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.DO11</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.DO12</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.DO13</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.DO14</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.DO15</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.DO16</Name>
 							<Type>BOOL</Type>
 						</Var>
 					</Vars>
@@ -759,12 +903,52 @@ Bit1: Value bigger/equal Limit2]]></Comment>
 		<MappingInfo Identifier="{00000000-2001-0850-0020-500830000403}" Id="#x02030010"/>
 		<OwnerA Name="TIPC^PLC^PLC Instance">
 			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1100)^Term 2 (EL1008)">
-				<Link VarA="PlcTask Inputs^MAIN.test_input" VarB="Channel 1^Input"/>
+				<Link VarA="PlcTask Inputs^GVL_IO.DI1" VarB="Channel 1^Input"/>
+				<Link VarA="PlcTask Inputs^GVL_IO.DI2" VarB="Channel 2^Input"/>
+				<Link VarA="PlcTask Inputs^GVL_IO.DI3" VarB="Channel 3^Input"/>
+				<Link VarA="PlcTask Inputs^GVL_IO.DI4" VarB="Channel 4^Input"/>
+				<Link VarA="PlcTask Inputs^GVL_IO.DI5" VarB="Channel 5^Input"/>
+				<Link VarA="PlcTask Inputs^GVL_IO.DI6" VarB="Channel 6^Input"/>
+				<Link VarA="PlcTask Inputs^GVL_IO.DI7" VarB="Channel 7^Input"/>
+				<Link VarA="PlcTask Inputs^GVL_IO.DI8" VarB="Channel 8^Input"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1100)^Term 3 (EL3058)">
+				<Link VarA="PlcTask Inputs^GVL_IO.AI1" VarB="AI Standard Channel 1^Value"/>
+				<Link VarA="PlcTask Inputs^GVL_IO.AI2" VarB="AI Standard Channel 2^Value"/>
+				<Link VarA="PlcTask Inputs^GVL_IO.AI3" VarB="AI Standard Channel 3^Value"/>
+				<Link VarA="PlcTask Inputs^GVL_IO.AI4" VarB="AI Standard Channel 4^Value"/>
+				<Link VarA="PlcTask Inputs^GVL_IO.AI5" VarB="AI Standard Channel 5^Value"/>
+				<Link VarA="PlcTask Inputs^GVL_IO.AI6" VarB="AI Standard Channel 6^Value"/>
+				<Link VarA="PlcTask Inputs^GVL_IO.AI7" VarB="AI Standard Channel 7^Value"/>
+				<Link VarA="PlcTask Inputs^GVL_IO.AI8" VarB="AI Standard Channel 8^Value"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1100)^Term 4 (EL4028)">
+				<Link VarA="PlcTask Outputs^GVL_IO.AO1" VarB="AO Outputs Channel 1^Analog output"/>
+				<Link VarA="PlcTask Outputs^GVL_IO.AO2" VarB="AO Outputs Channel 2^Analog output"/>
+				<Link VarA="PlcTask Outputs^GVL_IO.AO3" VarB="AO Outputs Channel 3^Analog output"/>
+				<Link VarA="PlcTask Outputs^GVL_IO.AO4" VarB="AO Outputs Channel 4^Analog output"/>
+				<Link VarA="PlcTask Outputs^GVL_IO.AO5" VarB="AO Outputs Channel 5^Analog output"/>
+				<Link VarA="PlcTask Outputs^GVL_IO.AO6" VarB="AO Outputs Channel 6^Analog output"/>
+				<Link VarA="PlcTask Outputs^GVL_IO.AO7" VarB="AO Outputs Channel 7^Analog output"/>
+				<Link VarA="PlcTask Outputs^GVL_IO.AO8" VarB="AO Outputs Channel 8^Analog output"/>
 			</OwnerB>
 			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1100)^Term 5 (EL2809)">
-				<Link VarA="PlcTask Outputs^GVL_IO.out_7" VarB="Channel 7^Output"/>
-				<Link VarA="PlcTask Outputs^MAIN.t_out2" VarB="Channel 2^Output"/>
-				<Link VarA="PlcTask Outputs^MAIN.test_output" VarB="Channel 1^Output"/>
+				<Link VarA="PlcTask Outputs^GVL_IO.DO1" VarB="Channel 1^Output"/>
+				<Link VarA="PlcTask Outputs^GVL_IO.DO10" VarB="Channel 10^Output"/>
+				<Link VarA="PlcTask Outputs^GVL_IO.DO11" VarB="Channel 11^Output"/>
+				<Link VarA="PlcTask Outputs^GVL_IO.DO12" VarB="Channel 12^Output"/>
+				<Link VarA="PlcTask Outputs^GVL_IO.DO13" VarB="Channel 13^Output"/>
+				<Link VarA="PlcTask Outputs^GVL_IO.DO14" VarB="Channel 14^Output"/>
+				<Link VarA="PlcTask Outputs^GVL_IO.DO15" VarB="Channel 15^Output"/>
+				<Link VarA="PlcTask Outputs^GVL_IO.DO16" VarB="Channel 16^Output"/>
+				<Link VarA="PlcTask Outputs^GVL_IO.DO2" VarB="Channel 2^Output"/>
+				<Link VarA="PlcTask Outputs^GVL_IO.DO3" VarB="Channel 3^Output"/>
+				<Link VarA="PlcTask Outputs^GVL_IO.DO4" VarB="Channel 4^Output"/>
+				<Link VarA="PlcTask Outputs^GVL_IO.DO5" VarB="Channel 5^Output"/>
+				<Link VarA="PlcTask Outputs^GVL_IO.DO6" VarB="Channel 6^Output"/>
+				<Link VarA="PlcTask Outputs^GVL_IO.DO7" VarB="Channel 7^Output"/>
+				<Link VarA="PlcTask Outputs^GVL_IO.DO8" VarB="Channel 8^Output"/>
+				<Link VarA="PlcTask Outputs^GVL_IO.DO9" VarB="Channel 9^Output"/>
 			</OwnerB>
 			<OwnerB Name="TIID^Device 2 (EtherCAT Automation Protocol)">
 				<Link VarA="PlcTask Inputs^GVL_IO.sync_master_dev2" VarB="Inputs^DevState"/>

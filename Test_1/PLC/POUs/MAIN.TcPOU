@@ -2,39 +2,11 @@
 <TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.4">
   <POU Name="MAIN" Id="{0701205e-8042-4eb2-9ac5-9191561a1695}" SpecialFunc="None">
     <Declaration><![CDATA[PROGRAM MAIN
-VAR_INPUT
-
-	test_input AT %I* : BOOL;
-END_VAR
-VAR_OUTPUT
-	test_output AT %Q* : BOOL;
-END_VAR
-VAR
-	timer_1: TON;
-	timer_2: TON;
-	t_in: BOOL;
-	t_out: BOOL;
-END_VAR
-VAR_OUTPUT
-	t_out2 AT %Q*: BOOL;
-END_VAR
 ]]></Declaration>
     <Implementation>
-      <ST><![CDATA[GVL_IO.test_1:=GVL_IO.test_1;
-test_output:=test_input;
-
-timer_1(IN:=t_out2, PT:=T#1S, Q=>t_out);
-timer_2(IN:=NOT(t_out), PT:=T#1S, Q=>t_out2);
-
-]]></ST>
+      <ST><![CDATA[]]></ST>
     </Implementation>
     <LineIds Name="MAIN">
-      <LineId Id="2" Count="0" />
-      <LineId Id="7" Count="0" />
-      <LineId Id="52" Count="0" />
-      <LineId Id="51" Count="0" />
-      <LineId Id="130" Count="0" />
-      <LineId Id="133" Count="0" />
       <LineId Id="50" Count="0" />
     </LineIds>
   </POU>

@@ -3,10 +3,51 @@
   <GVL Name="GVL_IO" Id="{cf736583-3519-404b-9074-943cbf1a5b2c}">
     <Declaration><![CDATA[{attribute 'qualified_only'}
 VAR_GLOBAL
-	test_1: BOOL;
-	test_2: BOOL;
 	sync_master_dev2 AT %I*: UINT;
-	out_7 AT %Q*: BOOL;
+	AI1 AT %I*: INT;	
+	AI2 AT %I*: INT;
+	AI3 AT %I*: INT;
+	AI4 AT %I*: INT;
+	AI5 AT %I*: INT;
+	AI6 AT %I*: INT;
+	AI7 AT %I*: INT;
+	AI8 AT %I*: INT;
+	
+	AO1 AT %Q*: INT;
+	AO2 AT %Q*: INT;
+	AO3 AT %Q*: INT;
+	AO4 AT %Q*: INT;
+	AO5 AT %Q*: INT;
+	AO6 AT %Q*: INT;
+	AO7 AT %Q*: INT;
+	AO8 AT %Q*: INT;
+	
+	DI1 AT %I*: BOOL;
+	DI2 AT %I*: BOOL;
+	DI3 AT %I*: BOOL;
+	DI4 AT %I*: BOOL;
+	DI5 AT %I*: BOOL;
+	DI6 AT %I*: BOOL;
+	DI7 AT %I*: BOOL;
+	DI8 AT %I*: BOOL;
+	
+	DO1 AT %Q*: BOOL;
+	DO2 AT %Q*: BOOL;
+	DO3 AT %Q*: BOOL;
+	DO4 AT %Q*: BOOL;
+	DO5 AT %Q*: BOOL;
+	DO6 AT %Q*: BOOL;
+	DO7 AT %Q*: BOOL;
+	DO8 AT %Q*: BOOL;
+	DO9 AT %Q*: BOOL;
+	DO10 AT %Q*: BOOL;
+	DO11 AT %Q*: BOOL;
+	DO12 AT %Q*: BOOL;
+	DO13 AT %Q*: BOOL;
+	DO14 AT %Q*: BOOL;
+	DO15 AT %Q*: BOOL;
+	DO16 AT %Q*: BOOL;
+	
 END_VAR]]></Declaration>
   </GVL>
 </TcPlcObject>
