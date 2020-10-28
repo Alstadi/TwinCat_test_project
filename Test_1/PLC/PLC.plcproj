@@ -27,7 +27,13 @@
     <Compile Include="PlcTask.TcTTO">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="POUs\FB_Scale.TcPOU">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="POUs\MAIN.TcPOU">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="POUs\PRG_IO_Scaling.TcPOU">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="VISUs\Analog_Outputs.TcVIS">

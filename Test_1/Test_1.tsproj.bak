@@ -46,12 +46,16 @@
 					<Vars VarGrpType="1">
 						<Name>PlcTask Inputs</Name>
 						<Var>
-							<Name>GVL_IO.sync_master_dev2</Name>
-							<Type>UINT</Type>
-						</Var>
-						<Var>
 							<Name>GVL_IO.DI1</Name>
 							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.DI2</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_IO.sync_master_dev2</Name>
+							<Type>UINT</Type>
 						</Var>
 						<Var>
 							<Name>GVL_IO.AI1</Name>
@@ -84,10 +88,6 @@
 						<Var>
 							<Name>GVL_IO.AI8</Name>
 							<Type>INT</Type>
-						</Var>
-						<Var>
-							<Name>GVL_IO.DI2</Name>
-							<Type>BOOL</Type>
 						</Var>
 						<Var>
 							<Name>GVL_IO.DI3</Name>

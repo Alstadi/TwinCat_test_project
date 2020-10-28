@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.4">
+  <POU Name="FB_Scale" Id="{f12285d5-1b19-44ea-a3f3-a9cc10e59d5d}" SpecialFunc="None">
+    <Declaration><![CDATA[FUNCTION_BLOCK FB_Scale
+VAR_INPUT
+	X_MIN: REAL;
+	X_MAX: REAL;
+	Y_MIN: REAL;
+	Y_MAX: REAL;
+	IN_VALUE: REAL;
+END_VAR
+VAR_OUTPUT
+	OUT_VALUE: REAL;
+END_VAR
+VAR
+	a: REAL;
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[a := (Y_MAX - Y_MIN) / (X_MAX - X_MIN);
+OUT_VALUE := a*(IN_VALUE-X_MIN) + Y_MIN;]]></ST>
+    </Implementation>
+    <LineIds Name="FB_Scale">
+      <LineId Id="257" Count="0" />
+      <LineId Id="153" Count="0" />
+    </LineIds>
+  </POU>
+</TcPlcObject>

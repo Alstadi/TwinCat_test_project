@@ -7,6 +7,9 @@
     <PouCall>
       <Name>MAIN</Name>
     </PouCall>
+    <PouCall>
+      <Name>PRG_IO_Scaling</Name>
+    </PouCall>
     <TaskFBGuid>{d0ae63cd-2876-44fa-87d6-ee41b5ef04fb}</TaskFBGuid>
     <Fb_init>{75344c1a-d5a4-4613-bfa4-111779353560}</Fb_init>
     <Fb_exit>{a358a77c-2493-4d3b-bdac-0fa1e6c79ba8}</Fb_exit>
